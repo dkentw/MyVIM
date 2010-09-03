@@ -28,11 +28,23 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+<<<<<<< HEAD
+=======
+"<my settings>
+>>>>>>> 6605b6be90f43c34fb13b6437c8f22c4c9c0c4f6
 :colorscheme ir_black
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=4
+<<<<<<< HEAD
 set guifont=Monaco:h12
 set foldmethod=marker
 nmap<leader>e :NERDTreeToggle<CR>
+=======
+set guifont=Monaco:h10
+set foldmethod=marker
+nmap<leader>e :NERDTreeToggle<CR>
+
+set autoindent
+>>>>>>> 6605b6be90f43c34fb13b6437c8f22c4c9c0c4f6
