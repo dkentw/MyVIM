@@ -28,15 +28,41 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
-"My Settings
-=======
-:colorscheme ir_black
-set expandtab
-set shiftwidth=4
-set softtabstop=4
-set tabstop=4
-set guifont=Monaco:h10
-set foldmethod=marker
-nmap<leader>e :NERDTreeToggle<CR>
+"General {
+    filetype plugin indent on
+    syntax on
+    set autochdir
+"}
+"Vim UI {
+    colorscheme ir_black
+    set guifont=Monaco:h10
+    set lines=40
+    set showmode
+    set cursorline
+    set ruler
+    set showcmd
+    set nu
+    set showmatch
+    set incsearch
+    set hlsearch
+    set smartcase           " smart sensitive
+    set foldenable          " auto folde code
+"}
 
-set autoindent
+" Formating {
+    set nowrap
+    set autoindent
+    set expandtab
+    set shiftwidth=4
+    set softtabstop=4
+    set tabstop=4
+    set foldmethod=syntax
+" }
+" Key Mapping {
+    " Yank from cursor to the end of the line
+    nnoremap Y y$           
+    " Change working directory
+    cmap cwd lcd %:p:h      
+    nmap<leader>e :NERDTreeToggle<CR>
+"}
+
