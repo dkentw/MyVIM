@@ -50,6 +50,8 @@ endfunction
 "}
 
 " Formating {
+    set encoding=utf8
+    set fileencodings=ucs-bom,utf-8,cp950,latin1
     set nowrap
     set autoindent
     set expandtab
