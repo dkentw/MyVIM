@@ -50,8 +50,14 @@ endfunction
 "}
 
 " Formating {
-    set encoding=utf8
-    set fileencodings=ucs-bom,utf-8,cp950,latin1
+    set encoding=utf-8
+    language message en
+
+    "reload menu with UTF-8 encoding
+    source $VIMRUNTIME/delmenu.vim
+    source $VIMRUNTIME/menu.vim
+    language message en
+
     set nowrap
     set autoindent
     set expandtab
