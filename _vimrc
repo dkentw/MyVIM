@@ -32,6 +32,7 @@ endfunction
     filetype plugin indent on
     syntax on
     set autochdir
+    set ignorecase smartcase
 "}
 "Vim UI {
     colorscheme ir_black
@@ -50,14 +51,11 @@ endfunction
 "}
 
 " Formating {
-    set encoding=utf-8
-    language message en
-
-    "reload menu with UTF-8 encoding
-    source $VIMRUNTIME/delmenu.vim
-    source $VIMRUNTIME/menu.vim
-    language message en
-
+    set encoding=UTF-8
+    lang message en
+	source $VIMRUNTIME\delmenu.vim
+	set langmenu=en
+	source $VIMRUNTIME\menu.vim
     set nowrap
     set autoindent
     set expandtab
