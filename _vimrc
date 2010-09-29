@@ -51,7 +51,7 @@ endfunction
 "}
 
 " Formating {
-    set encoding=UTF-8
+"   set encoding=UTF-8      " have bug!
     lang message en
 	source $VIMRUNTIME\delmenu.vim
 	set langmenu=en
@@ -66,7 +66,7 @@ endfunction
 " }
 " Key Mapping {
     " Yank from cursor to the end of the line
-    nnoremap Y y$           
+    "nnoremap Y y$           
     " Change working directory
     cmap cwd lcd %:p:h      
     nmap<leader>e :NERDTreeToggle<CR>
