@@ -33,6 +33,7 @@ endfunction
     syntax on
     set autochdir
     set ignorecase smartcase
+    "let Tlist_Ctags_Cmd='c:\tools\ctags.exe'
 "}
 "Vim UI {
     colorscheme ir_black
@@ -70,5 +71,6 @@ endfunction
     " Change working directory
     cmap cwd lcd %:p:h      
     nmap<leader>e :NERDTreeToggle<CR>
+    nnoremap <F12> :TlistToggle<CR>
 "}
 
