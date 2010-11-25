@@ -53,6 +53,7 @@ endfunction
 
 " Formating {
 "   set encoding=UTF-8      " have bug!
+    set fileencodings=utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
     lang message en
 	source $VIMRUNTIME\delmenu.vim
 	set langmenu=en
@@ -64,13 +65,16 @@ endfunction
     set softtabstop=4
     set tabstop=4
     set foldmethod=syntax
+    set ofu=syntaxcomplete#Complete
 " }
 " Key Mapping {
     " Yank from cursor to the end of the line
     "nnoremap Y y$           
     " Change working directory
     cmap cwd lcd %:p:h      
-    nmap<leader>e :NERDTreeToggle<CR>
+    nmap <F9> :TrinityToggleSourceExplorer<CR>
+    nnoremap <F10> :TrinityToggleAll<CR> 
+    nnoremap <F11> :NERDTreeToggle<CR>
     nnoremap <F12> :TlistToggle<CR>
 "}
 
