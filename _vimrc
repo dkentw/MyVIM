@@ -33,6 +33,7 @@ endfunction
     syntax on
     set autochdir
     set ignorecase smartcase
+    set nobackup
     "let Tlist_Ctags_Cmd='c:\tools\ctags.exe'
 "}
 "Vim UI {
