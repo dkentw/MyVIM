@@ -34,7 +34,7 @@ endfunction
     set autochdir
     set ignorecase smartcase
     set nobackup
-    "let Tlist_Ctags_Cmd='c:\tools\ctags.exe'
+    let Tlist_Ctags_Cmd='C:\Program Files\Vim\vimfiles\ctags58\ctags.exe'
 "}
 "Vim UI {
     colorscheme ir_black
