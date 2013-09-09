@@ -40,7 +40,7 @@ endfunction
 "Vim UI {
     colorscheme ir_black
     set guifont=Monaco:h10
-    set lines=40
+"    set lines=40
     set showmode
     set cursorline
     set ruler
@@ -56,10 +56,10 @@ endfunction
 " Formating {
 "   set encoding=UTF-8      " have bug!
     set fileencodings=utf-8,big5,euc-jp,gbk,euc-kr,utf-bom,iso8859-1
-    lang message en
-	source $VIMRUNTIME\delmenu.vim
-	set langmenu=en
-	source $VIMRUNTIME\menu.vim
+"    lang message en
+"	source $VIMRUNTIME\delmenu.vim
+"	set langmenu=en
+"	source $VIMRUNTIME\menu.vim
     set nowrap
     set autoindent
     set expandtab
@@ -74,9 +74,9 @@ endfunction
     "nnoremap Y y$           
     " Change working directory
     cmap cwd lcd %:p:h      
-    nmap <F9> :TrinityToggleSourceExplorer<CR>
-    nnoremap <F10> :TrinityToggleAll<CR> 
-    nnoremap <F11> :NERDTreeToggle<CR>
-    nnoremap <F12> :TlistToggle<CR>
+    nmap <C-F9> :TrinityToggleSourceExplorer<CR>
+    nnoremap <C-F10> :TrinityToggleAll<CR> 
+    nnoremap <C-F11> :NERDTreeToggle<CR>
+    nnoremap <C-F12> :TlistToggle<CR>
 "}
 
