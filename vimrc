@@ -40,7 +40,6 @@ endfunction
 "Vim UI {
     colorscheme ir_black
     set guifont=Monaco:h10
-"    set lines=40
     set showmode
     set cursorline
     set ruler
@@ -51,6 +50,7 @@ endfunction
     set hlsearch
     set smartcase           " smart sensitive
     set foldenable          " auto folde code
+    set foldlevelstart=99
 "}
 
 " Formating {
