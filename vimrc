@@ -36,6 +36,11 @@ Bundle 'Wombat'
 Bundle 'Distinguished'
 Bundle 'Twilight-for-python'
 
+if has("eval")
+    let python_highlight_all = 1
+    let python_slow_sync = 1
+endif
+
 filetype plugin indent on 
 
 " tabs and spaces
@@ -58,6 +63,8 @@ set nu
 set ruler
 set showcmd
 set guifont=Monaco:h10
+set t_Co=256
+color twilight
 
 " format
 set autoindent
@@ -67,4 +74,4 @@ set textwidth=0
 
 " Key Map
 "
-nnoremap <C-F9> :NERDTreeToggle<CR>
+nnoremap <C-9> :NERDTreeToggle<CR>
