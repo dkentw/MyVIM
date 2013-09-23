@@ -74,4 +74,5 @@ set textwidth=0
 
 " Key Map
 "
-nnoremap <C-9> :NERDTreeToggle<CR>
+nnoremap <C-F9> :NERDTreeToggle<CR>
+nnoremap <C-F10> :TagbarToggle<CR>
