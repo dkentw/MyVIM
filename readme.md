@@ -21,4 +21,6 @@ Enjoy it!
 
 Just check the contnent of ``vimrc``
 
+#Snapshot
+
 ![VIM snapshot](snapshot.png)
