@@ -1,10 +1,10 @@
 
 **File Explorer**
 
-```Ctrl+F9```
+``Ctrl+F9``
 
 **Class Browser**
 
-```Ctrl+F10```
+``Ctrl+F10``
 
-![VIM snapshot](snapshot.png)
+[VIM snapshot](snapshot.png)
