@@ -25,6 +25,8 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'davidhalter/jedi-vim'
 " PEP8
 Bundle 'nvie/vim-flake8'            
+" Syntax
+Bundle 'plasticboy/vim-markdown'
 
 " None github
 Bundle 'https://github.com/fholgado/minibufexpl.vim.git'
