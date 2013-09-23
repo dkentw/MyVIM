@@ -1,4 +1,3 @@
-
 **File Explorer**
 
 ``Ctrl+F9``
@@ -7,4 +6,4 @@
 
 ``Ctrl+F10``
 
-[VIM snapshot](snapshot.png)
+![VIM snapshot](snapshot.png)
