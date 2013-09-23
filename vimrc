@@ -80,6 +80,13 @@ autocmd VimEnter * nested :call tagbar#autoopen(1)
 autocmd VimEnter * NERDTreeToggle
 
 " Key Map
-"
+
 nnoremap <C-F9> :NERDTreeToggle<CR>
 nnoremap <C-F10> :TagbarToggle<CR>
+" Tagbar keymap
+noremap <C-Down> <C-W>j
+noremap <C-Up> <C-W>k
+noremap <C-Left> <C-W>h
+noremap <C-Right> <C-W>l
+noremap <C-TAB> :MBEbf<CR>
+noremap <C-S-TAB> :MBEbb<CR>
