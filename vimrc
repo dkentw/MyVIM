@@ -67,12 +67,17 @@ set showcmd
 set guifont=Monaco:h10
 set t_Co=256
 color twilight
+set nofoldenable
 
 " format
 set autoindent
 set nowrap
 set textwidth=0
 
+" plugin options
+let g:vim_markdown_folding_disabled=1
+autocmd VimEnter * nested :call tagbar#autoopen(1)
+autocmd VimEnter * NERDTreeToggle
 
 " Key Map
 "

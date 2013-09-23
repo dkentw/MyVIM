@@ -11,11 +11,11 @@ Enjoy it!
 #Usage
 **File Explorer**
 
-``Ctrl+F9``
+````Ctrl+F9````
 
 **Class Browser**
 
-``Ctrl+F10``
+````Ctrl+F10````
 
 #Feature
 
