@@ -1,7 +1,7 @@
 #Install
 
 1. Install vundle<https://github.com/gmarik/vundle> plugin for your VIM
-2. Download the **vimrc** into the ``.vim`` folder
+2. Download the **vimrc** as ``.vimrc``
 3. Open VIM and type the command ``:BundllInstall``
 
 It will install all needed plugins.
