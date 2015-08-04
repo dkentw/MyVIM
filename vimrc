@@ -1,42 +1,42 @@
 set nocompatible               " be iMproved
 filetype off                   " required!
 
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " My Bundles here:
 "
 " repo on github
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
-Bundle 'Shougo/neocomplcache'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'Shougo/neocomplcache'
 
 " code commenter
-Bundle 'scrooloose/nerdcommenter'   
+Plugin 'scrooloose/nerdcommenter'   
 " class browser
-Bundle 'majutsushi/tagbar'
+Plugin 'majutsushi/tagbar'
 " fuzzy finder    
-Bundle 'kien/ctrlp.vim'         
+Plugin 'kien/ctrlp.vim'         
 " python autocomplete
-Bundle 'davidhalter/jedi-vim'
+Plugin 'davidhalter/jedi-vim'
 " PEP8
-Bundle 'nvie/vim-flake8'            
+Plugin 'nvie/vim-flake8'            
 " Syntax
-Bundle 'plasticboy/vim-markdown'
+Plugin 'plasticboy/vim-markdown'
 
 " None github
-Bundle 'https://github.com/fholgado/minibufexpl.vim.git'
+Plugin 'https://github.com/fholgado/minibufexpl.vim.git'
 
-Bundle 'AutoComplPop'
+Plugin 'AutoComplPop'
 
 " colr scheme
-Bundle 'Wombat'
-Bundle 'Distinguished'
-Bundle 'Twilight-for-python'
+Plugin 'Wombat'
+Plugin 'Distinguished'
+" Plugin 'Twilight-for-python'
 
 if has("eval")
     let python_highlight_all = 1
@@ -59,14 +59,14 @@ autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
 set ls=2
 set hlsearch
 set ignorecase
-set smartcase	" when there is a capital letter be sensitive
+set smartcase   " when there is a capital letter be sensitive
 syntax on
 set nu
 set ruler
 set showcmd
 set guifont=Monaco:h10
 set t_Co=256
-color twilight
+" color twilight
 set nofoldenable
 
 " format
@@ -76,7 +76,7 @@ set textwidth=0
 
 " plugin options
 let g:vim_markdown_folding_disabled=1
-autocmd VimEnter * nested :call tagbar#autoopen(1)
+" autocmd VimEnter * nested :call tagbar#autoopen(1)
 
 " Key Map
 
